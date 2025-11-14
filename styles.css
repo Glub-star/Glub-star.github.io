@@ -1,0 +1,98 @@
+:root{
+    --background: #0A0F0F;
+    --pannel: #111518;
+    --primary_accent: #00E0FF;
+    --secondary_accent: #8B00FF;
+    --sucksess_green: #00FFA3;
+    --error_green: #FF0055;
+    --text_primary: #D9F4FF;
+    --text_Muted: #6C7A80;
+}
+
+a{
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    background-color: var(--background);
+    color: var(--text_primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+.Index_Title{
+    border: 2px solid var(--primary_accent);
+    border-radius: 10px;
+    font-size: 40px;
+    color: var(--text_primary);
+    width: 400px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-shrink: 0;
+}
+
+.container{
+    border: 2px solid var(--secondary_accent);
+    width: 700px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.code-box{
+    border: 1px solid var(--primary_accent);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    background: var(--pannel);
+    color: var(--text_primary);
+    margin-bottom: 20px;
+}
+.collapse-btn {
+    background: none;
+    border: none;
+    color: var(--primary_accent);
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.code-content {
+    display: none; /* collapsed by default */
+    position: relative;
+}
+
+pre {
+    background: #0d0f12;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--primary_accent);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}

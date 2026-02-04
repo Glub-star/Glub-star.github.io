@@ -15,6 +15,9 @@ a{
 
 li{
     list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    gap:120px;
 }
 
 body{
@@ -45,6 +48,7 @@ body{
 
 .container{
     border: 2px solid var(--secondary_accent);
+    background-color: var(--pannel);
     width: 700px;
     height: auto;
     display:flex;

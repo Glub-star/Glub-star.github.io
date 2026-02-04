@@ -64,8 +64,31 @@ border-radius: 1rem;
 overflow: hidden;
 box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+.card {
+background: var(--card);
+border-radius: 1rem;
+overflow: hidden;
+box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+
+.card:hover {
+transform: translateY(-6px);
+box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+
+
+.card img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+}
+
+
+.card-content {
+padding: 1.25rem;
 
 .card:hover {
 transform: translateY(-6px);
@@ -102,8 +125,34 @@ margin-top: 0.75rem;
 display: flex;
 flex-wrap: wrap;
 gap: 0.4rem;
+
+
+.card-content h3 {
+margin: 0 0 0.5rem 0;
 }
 
+
+.card-content p {
+font-size: 0.95rem;
+color: var(--muted);
+line-height: 1.5;
+}
+
+
+.tags {
+margin-top: 0.75rem;
+display: flex;
+flex-wrap: wrap;
+gap: 0.4rem;
+}
+
+
+.tag {
+font-size: 0.75rem;
+padding: 0.25rem 0.6rem;
+border-radius: 999px;
+background: rgba(108,124,255,0.15);
+color: var(--accent);
 
 .tag {
 font-size: 0.75rem;

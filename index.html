@@ -1,40 +1,96 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1 class="Index_Title">Glub's Projects</h1>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glub | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-        <ul>
-            <li>
-                <div class="container" data-github-repo="Glub-star/Basic-Character-Controller-for-Unity">
-            <h2>3D Unity Character Controller</h2>
-            <p>
-                This is a simple character controller I made so I don't have to build one 
-                from scratch each time I start a new Unity project.<br>
-                It is simple so beginners can understand it. It can always be expanded on.
-            </p>
-            <a href="https://github.com/Glub-star/Basic-Character-Controller-for-Unity">
-                The project can be found here
-            </a>
-            <p>Or it can be copied from the collapsible menu(s) below:</p>
+  <header>
+    <h1>Glub</h1>
+    <p>
+      Hobbyist game developer and programmer specialising in Unity, C#, and interactive systems.
+      I enjoy building experimental mechanics, technical prototypes, and stylised game projects.
+    </p>
+  </header>
 
-            <!-- The code boxes will be injected dynamically here -->
-            <div class="code-container"></div>
+  <section>
+    <h2>Web Projects</h2>
+
+    <div class="grid">
+      <div class="card">
+        <img src="blackice-preview.png" alt="BlackICE Interface preview">
+
+        <div class="card-content">
+          <h3>BlackICE Interface</h3>
+          <p>
+            A cyberpunk OS-style web interface inspired by hacking minigames.
+            Focused on UI/UX and interactive design.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Web</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">UI/UX</span>
+          </div>
+
+          <div class="actions">
+            <a href="https://glub-star.github.io/BlackICE---cyberpunk-minigame-/" target="_blank">Visit Site</a>
+          </div>
         </div>
-        <div class="container" data-github-repo="Glub-star/Basic-Character-Controller-for-Unity">
-            <h2>Dijkstra’s Algorithm Visualizer</h2>
-            <p>
-                This is a visual represntation of Dijkstra’s shortest-path algorithm. You can set custom peramaters and gerate a custom graph, and choose a end node.<br> Then you can watch the program find the shortest path in real-time. It I made it to further understand the algorythm and use it in a apraticall sense to remeber it better.
-            </p>
-            <a href="https://glub-star.github.io/Dijkstra-s-Path/">
-                The project can be found here
-            </a>
-        </div>
-            </li>
-        </ul>
+      </div>
+    </div>
+  </section>
 
-        <script src="script.js"></script>
-    </body>
+  <section>
+    <h2>Unity Projects</h2>
+
+    <div class="grid">
+      <div class="card">
+        <img src="https://placehold.co/600x400?text=Unity+Screenshot" alt="Unity project screenshot">
+
+        <div class="card-content">
+          <h3>Slime Adventure Prototype</h3>
+          <p>
+            A 2D adventure game inspired by Omori, featuring slime-based characters
+            and experimental dialogue systems.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Unity</span>
+            <span class="tag">2D</span>
+            <span class="tag">Game Design</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://placehold.co/600x400?text=Unity+Screenshot" alt="Unity project screenshot">
+
+        <div class="card-content">
+          <h3>FPS Combat Prototype</h3>
+          <p>
+            A 3D FPS prototype focusing on hitscan weapons, recoil tuning,
+            and satisfying gun feel.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Unity</span>
+            <span class="tag">3D</span>
+            <span class="tag">FPS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Glub · Portfolio
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
 </html>
